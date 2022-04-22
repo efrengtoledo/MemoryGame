@@ -46,13 +46,14 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
-[YOUR ANSWER HERE]
+https://www.w3schools.com For general html/css/JavaScript tutorials
+http://fonts.cdnfonts.com/css/common-pixel to get pixelated font
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
-[YOUR ANSWER HERE]
+The biggest challenge I faced was understanding and implementing the logic behind the game. Using a bunch of nested conditional statements could get confusing, so I started off by breaking down which conditional statements do what. The first conditional statement checks whether or not the user clicks the right button. If so, we then check if our progress count matches our guess count. If so, we check if our progress count is equivalent to the length of the list. If so, we win the game. If progress is not equivalent to the length of the list, we then increment our progress count by 1, until it reaches the length of the list and start the clue sequence again. If the guess does not match the selected number in the pattern list, then we get that answer wrong and increment the wrong count by 1. If wrong count is three, we lose the game. It is important to understand how the game works, in order to add additional features to the logic.  
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
-[YOUR ANSWER HERE]
+Something I kept thinking about
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
 [YOUR ANSWER HERE]
